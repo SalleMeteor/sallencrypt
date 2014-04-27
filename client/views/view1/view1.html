@@ -1,0 +1,35 @@
+<template name="view1">
+  <h1>Hello {{loginButtons}}</h1>
+  <br>
+  <br>
+
+  
+  <h2>Sallencrypt whatever you want!</h2>
+  <textarea id="texto" rows="15" cols="200" style="textArea">
+  Type here what you want to Encrypt.
+  </textarea>
+  {{>addWord}}
+  {{>reset}}
+  <br>
+  <br>
+  <br>
+  <table border="1">
+    <tr>
+      <td>Text</td>
+      <td>MD5 Vale</td>
+    </tr>
+    {{#each words}}    
+      <tr>
+        <td>{{text}}</td>
+        <td>{{crypt}}</td>
+      </tr>
+    {{/each}}  
+  </table>
+</template>
+
+<template name="addWord">
+ <button type="button" class="btn" id="submit">MD5 ENCRYPT</button>
+</template>
+<template name="reset">
+ <button type="button" class="btn" id="reset">RESET</button>
+</template>

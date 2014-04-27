@@ -1,0 +1,50 @@
+<template name="index">
+    <div id="main">
+         <div id="header">
+         <div id="headerTitle">SALLENCRYPT</div>
+         </div>
+         <div id="content">
+         <div id="columnOne">
+           {{#if currentUser}}
+           {{> view1}}
+           {{else}}
+           <h1>You must log in first!</h1>
+           <br>
+           <br>
+           <br>
+           <img src="/images/securing-your-data.png">
+           {{/if}}
+         </div>
+         <div id="columnTwo">
+            <h2>LOGIN</h2>
+            <div class="links">
+              {{loginButtons}}
+            </div> 
+            <h2>ENCRYPTION INFO</h2>
+            <div class="links">
+            <ul>
+		        <li><a href="http://en.wikipedia.org/wiki/MD5">MD5</a></li>
+   		      <li><a href="http://en.wikipedia.org/wiki/Secure_Hash_Algorithm">SHA</a></li>
+            </ul>
+            </div> 
+            <h2>ABOUT US</h2>
+            <div class="links">
+            <ul>
+		        <li><a href="#">Alex Torres - Computer Engineering</a></li>
+   		      <li><a href="#">Marc Vilà - OTIC Engineer</a></li>
+            <li><a href="#">Alberto Jiménez - OTIC Engineer</a></li>
+            </ul>
+            </div>  
+           <h2>LATEST WORDS</h2>
+           <div class="links">
+           {{#each words}}    
+            <ul>
+              <li>{{text}}</li>
+            </ul>
+           {{/each}}  
+           </div>
+        </div>
+        </div>
+      <div id="footer"></div>
+    </div>
+</template>
