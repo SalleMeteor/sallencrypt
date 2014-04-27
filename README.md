@@ -1,5 +1,5 @@
 # APP NAME: SALLENCRYPT
-App name, App description, members, list of packages to install manually, deployed URL
+
 
 ## APP DESCRIPTION
 
