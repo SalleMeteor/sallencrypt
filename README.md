@@ -8,19 +8,19 @@ Simple application that allow users to encrypt text using MD5 and storing those 
 
 ## MEMBERS
 
-Marc Vilà
-Alex Torres
-Alberto Jiménez
+- Marc Vilà
+- Alex Torres
+- Alberto Jiménez
 
 
 ## PACKAGES USED
 
-Crypto-base
-Crypto-md5
-Accounts-ui
+- Crypto-base
+- Crypto-md5
+- Accounts-ui
 
 ## DEPLOYED URL
 
-sallencrypt.meteor.com
+http://sallencrypt.meteor.com
 
 
