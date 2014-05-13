@@ -1,32 +1,24 @@
-Vote-it
-============
-
-La idea inicial és va ser una aplicació web que ens permetés votar. Tot i així vem decidir, finalment, realitzar un sistema de xat.
+# APP NAME: SALLENCRYPT
 
 
-Membres
--------
+## APP DESCRIPTION
 
-- Ramon Sanabria (gs22175)
-- Unai Gonzalez (si20933)
-
-Deployment URL
---------------
-
-http://vote-it.meteor.com
+Simple application that allow users to encrypt text using MD5 and storing those encryptions for building a dynamic dictionary.
 
 
-To execute it you need use version 0.6.6.1:
+## MEMBERS
 
-- meteor --release 0.6.6.1
-  
-  
-
-Dependences
------------
-
-- meteor add accounts-ui
-- meteor add bootstrap
-- meteor add accounts-password
+- Marc Vilà
+- Alex Torres
+- Alberto Jiménez
 
 
+## PACKAGES USED
+
+- Crypto-base
+- Crypto-md5
+- Accounts-ui
+
+## DEPLOYED URL
+
+http://sallencrypt.meteor.com
